@@ -1,7 +1,13 @@
 body {
     background-color:black
 }
-
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #e08a07;
+    color: white;
+    font-size: 30px;
+  }
 fieldset {
     background-color: midnightblue;
 }
@@ -12,12 +18,13 @@ fieldset {
     border-top: auto;
     border-style: groove;
     background-color: plum;
-    float: left;
+    text-align: center;
 }
 legend {
     background-color: gray;
     color: white;
     padding: 5px 10px;
+    text-align: center;
   }
 
   #fcontainer2 {
@@ -27,13 +34,14 @@ legend {
     border-top: auto;
     border-style: groove;
     background-color: plum;
-    float: left;
+    text-align: center;
     
 }
 legend2 {
     background-color: gray;
     color: white;
     padding: 5px 10px;
+    text-align: center;
   }
   .color-container{
     text-align: center;

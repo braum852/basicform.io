@@ -7,10 +7,12 @@
     <script language="javascript">alert("Hi there, and welcome to my HTML/CSS Form!")</script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body {color: black}>
     <fieldset id="fcontainer">
     <legend id="legend">Form 1</legend>
     <form action="/action_page.php", id="form1">
+        <label for="cname">Company name:</label><br>
+        <input type="text" id="cname" name="cname" placeholder="Your name.."><br>
         <label for="fname">First name:</label><br>
         <input type="text" id="fname" name="fname" placeholder="Your name.."><br>
         <label for="lname">Last name:</label><br>

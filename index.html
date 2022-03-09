@@ -2,39 +2,58 @@
 <html>
 <head>
     <title>
-        Basic HTML/CSS Form
+        My Company
     </title>
-    <script language="javascript">alert("Hi there, and welcome to my HTML/CSS Form!")</script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body {color: black}>
-    <fieldset id="fcontainer">
-    <legend id="legend">Form 1</legend>
-    <form action="/action_page.php", id="form1">
-        <label for="cname">Company name:</label><br>
-        <input type="text" id="cname" name="cname" placeholder="Your name.."><br>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" placeholder="Your name.."><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" placeholder="Your last name.."><br><br>
-        <input type="submit" value="Submit">
-      </form>
-    </fieldset>
+    <div class="header">
+        <h1>Our Company</h1>
+        </div>
+    <div class="fformat">
+        <fieldset id="fcontainer">
+        <legend id="legend">Site</legend>
+        <form action="/action_page.php", id="form1">
+             <label for="Address">Address</label><br>
+                <input type="text" id="Address" name="Address" placeholder="Enter here.."><br>
+             <label for="Site Name">Site Name</label><br>
+                 <input type="text" id="Site Name" name="Site Name" placeholder="Enter here.."><br>
+              <label for="Site Phone Number">Site Phone Number</label><br>
+                 <input type="text" id="Site Phone Number" name="Site Phone Number" placeholder="Enter here.."><br>
+             <label for="Site Email">Site Email</label><br>
+                 <input type="text" id="Site Email" name="Site Email" placeholder="Enter here.."><br><br>
+                 <input type="submit" value="Submit">
+            </form>
+        </fieldset>
 
     <fieldset id="fcontainer2">
-        <legend id="legend2">Form 2</legend>
+        <legend id="legend2">Location</legend>
         <form action="/action_page.php", id="form2">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" placeholder="Your name.."><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" placeholder="Your last name.."><br><br>
+            <label for="Suburb">Suburb</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter here.."><br>
+            <label for="State">State</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Enter here.."><br>
+            <label for="Post Code">Post Code</label><br>
+            <input type="text" id="PostCode" name="PostCode" placeholder="Enter here.."><br><br>
             <input type="submit" value="Submit">
           </form>
         </fieldset>
-
+    </div>
+    <footer>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="color-container" id="color-brown">I could be Brown</div>
 		<div class="color-container" id="color-blue">I could be Blue</div>
 		<div class="color-container" id="color-violet">I could be Violet Sky</div>
+
+    </footer>
+
 </body>
 
 </html>

@@ -1,15 +1,29 @@
 body {
-    background-color:black
+    background-color:black;
+    background-image: url("air4.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
 }
 .header {
-    padding: 60px;
-    text-align: center;
-    background: #e08a07;
-    color: white;
-    font-size: 30px;
-  }
+    margin: auto;
+  padding: 0px;
+  text-align: center;
+  background: #276eca;
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fformat{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 fieldset {
     background-color: midnightblue;
+    border: none;
+    display: inline;
+    vertical-align: top
 }
 #fcontainer {
     display: inline-block;
@@ -17,11 +31,13 @@ fieldset {
     border-width: auto;
     border-top: auto;
     border-style: groove;
-    background-color: plum;
+    background-color: rgb(131, 199, 202);
     text-align: center;
+    vertical-align: middle;
 }
 legend {
     background-color: gray;
+    border: 3px outset white;
     color: white;
     padding: 5px 10px;
     text-align: center;
@@ -33,8 +49,9 @@ legend {
     border-width: auto;
     border-top: auto;
     border-style: groove;
-    background-color: plum;
+    background-color: rgb(131, 199, 202);
     text-align: center;
+    font-size: large;
     
 }
 legend2 {
@@ -42,6 +59,9 @@ legend2 {
     color: white;
     padding: 5px 10px;
     text-align: center;
+  }
+  footer{
+      float: right;
   }
   .color-container{
     text-align: center;
